@@ -1,5 +1,6 @@
 # web-dyna-td2
 Repository de base pour le TD2 (@jcheron)
+Ce repository est synchronisé avec le salon TD2
 
 ## Mise en place
 - Faire un [Fork de ce repository sur votre compte github](https://github.com/dyna-web-rt/web-dyna-td2/fork)
