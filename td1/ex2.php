@@ -13,6 +13,13 @@
 	$size = $_GET['size'] ?? 10;
 	$color = $_GET['couleur'] ?? 'black';
 	$message = $_GET['message'] ?? 'Pas de message';
+	$update = $_GET['update'] ?? null;
+
+	if ($update == "+") {
+		$size = $size + 2;
+	} elseif ($update == "-") {
+		$size = $size - 2;
+	}
 
 	echo "<div style='font-size: {$size}px; color: {$color} ;'>Message de taille {$size}px en {$message}</div>";
 
@@ -27,6 +34,8 @@
 		<input type="color" value="<?=$color?>" name="couleur" id="couleur">
 		<hr>
 		<input type="submit" value="Valider">
+		<input type="submit" name="update" value="+">
+		<input type="submit" name="update" value="-">
 	</form>
 
 </body>
