@@ -14,10 +14,12 @@ echo "<h2>Tableau de $nbLignes par $nbColonnes</h2>";
 ?>
 <table border='1'>
     <tbody>
-      <?php for($i=0;$i<$nbLignes;$i++){?>
+      <?php for($i=0;$i<$nbLignes;$i++){
+        $gras=($i%2==0)?"bold":"normal";
+      ?>
         <tr>
         <?php for($j=0;$j<$nbColonnes;$j++){?>
-            <td><?="$i - $j"?></td>
+            <td style="font-weight: <?=$gras ?>"><?="$i - $j"?></td>
         <?php }?>
         </tr>
       <?php }?>
