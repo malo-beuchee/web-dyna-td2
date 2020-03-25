@@ -3,7 +3,7 @@ Repository de base pour le TD2 (@jcheron)
 Ce repository est synchronisé avec le salon TD2
 
 ## Déploiement web (Heroku)
-- Consulter https://web-dyna-td1.herokuapp.com
+- Consulter https://web-dyna-td2.herokuapp.com
 
 ## Mise en place
 - Faire un [Fork de ce repository sur votre compte github](https://github.com/dyna-web-rt/web-dyna-td2/fork)
