@@ -11,6 +11,8 @@
   <ul>
     <li><a href="td1/hello.php">Hello world</a></li>
     <li><a href="td1/ex1.php">Exercice 1</a></li>
+    <li><a href="td1/ex2.php">Exercice 2</a></li>
+    <li><a href="td1/ex2.php">Exercice 3</a></li>
   <ul>
 </body>
 </html>
