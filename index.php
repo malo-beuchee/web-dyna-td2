@@ -8,7 +8,8 @@ include "td1/include/header.php";
     <li><a href="td1/hello.php">Hello world</a></li>
     <li><a href="td1/ex1.php">Exercice 1</a></li>
     <li><a href="td1/ex2.php">Exercice 2</a></li>
-    <li><a href="td1/ex2.php">Exercice 3</a></li>
+    <li><a href="td1/ex3.php">Exercice 3</a></li>
+    <li><a href="td1/ex4.php">Exercice 4</a></li>    
   <ul>
 <?php
 include "td1/include/footer.php";
