@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Web dynamique (TDs)</title>
-</head>
-<body>
+<?php $title='Web dynamique (TDs)';
+include "td1/include/header.php";
+?>
   <h1>TD Web dynamique</h1>
   <h2>Groupe de TD n°2</h2>
   <h3>TD n°1</h3>
@@ -14,5 +10,6 @@
     <li><a href="td1/ex2.php">Exercice 2</a></li>
     <li><a href="td1/ex2.php">Exercice 3</a></li>
   <ul>
-</body>
-</html>
+<?php
+include "td1/include/footer.php";
+ ?>
