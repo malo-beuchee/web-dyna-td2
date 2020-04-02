@@ -10,7 +10,8 @@ include "td1/include/header.php";
     <li><a href="td1/ex2.php">Exercice 2 (GET)</a></li>
     <li><a href="td1/ex3.php">Exercice 3 (POST)</a></li>
     <li><a href="td1/ex4.php">Exercice 4 (Itérations)</a></li>
-    <li><a href="td1/ex5.php">Exercice 5 (Fonctions)</a></li>    
+    <li><a href="td1/ex5.php">Exercice 5 (Fonctions)</a></li>
+    <li><a href="td1/ex6.php">Exercice 6 (Tableaux + Fonctions)</a></li>
   <ul>
 <?php
 include "td1/include/footer.php";
