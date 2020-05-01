@@ -1,3 +1,7 @@
 .buildpath
 .settings/
 .project
+tp2/vendor/
+tp2/app/cache/
+tp3/vendor/
+tp3/app/cache/
