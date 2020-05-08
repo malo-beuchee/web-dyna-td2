@@ -1,7 +1,12 @@
-<?php
-echo 'Hello world!';
-?>
-<hr>
-<?php
-$version = phpversion();
-echo "<h1>php $version is great!</h1>";
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello</title>
+	</head>
+	<body>
+		<?php
+		echo("Hello world !");
+		?>
+	</body>
+</html>
