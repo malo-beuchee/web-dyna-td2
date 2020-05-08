@@ -1,5 +1,19 @@
-<a href="?message=Hello world!">Afficher Hello world!</a><br>
-<a href="?message=un Message">Afficher un Message</a><br>
-<a href="?message=mundo dos cumprimentos">Afficher en Portugais</a>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello</title>
+
+</head>
+<body>
 <?php
-echo "<h1>" . $_GET["message"]??"" . "</h1>";
+#exemple d'addresse: http://127.0.0.1/tpmalo/tp1/exo1.php?page=1&name=malo&faire=jsp
+echo "vous etes sur la page ". $_GET["page"];
+echo "<br/>";	
+echo " Bonjour ". $_GET["name"];
+echo "<br/>";
+echo " Qu'est ce que tu fait ici ". $_GET["faire"];
+?>
+
+</body>
+</html>
