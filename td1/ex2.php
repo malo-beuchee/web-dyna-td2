@@ -6,7 +6,12 @@
 
 		</head>
 	<body>
-			
+			<!--message, size et color passés dans l'URL dans une div -->
+		<div>
+			<?php
+				echo "<font color ='{$_GET["colr"]}'size='{$_GET["siz"]}px;'>Message de taille {$_GET["siz"]}px en {$_GET["colr"]} </font>";
+			?>
+		</div>	
 		<form method="GET">
 		    <label for="size">Size : </label>
 		    <input type="number" value="" name="size" id="size">
