@@ -12,5 +12,8 @@ include "header.php";
 		<hr>
 		<input type="submit" value="Valider l'incription">
 	</form>
+<?php
+
+?>	
 </body>
 </html>

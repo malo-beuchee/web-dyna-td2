@@ -23,7 +23,7 @@
 	<hr>
 	<form method="POST">
 		<label for="message">Message : </label>
-		<textarea" name="message" id="message"><?=$message?></textarea>
+		<textarea name="message" id="message"><?=$message?></textarea>
 		<label for="size">Size : </label>
 		<input type="number" value="<?=$size?>" name="size" id="size">
 		<label for="couleur">Couleur : </label>
