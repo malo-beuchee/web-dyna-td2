@@ -8,7 +8,7 @@
 	<?php
 	$size = $_POST['size'] ?? 10;
 	$color = $_POST['couleur'] ?? 'black';
-	$message = $_POST['message'] ?? 'Pas de message';
+	$message = $_POST['message'] ?? 'c est quoi ce message';
 	$update = $_POST['update'] ?? null;
 
 	if ($update == "+") {

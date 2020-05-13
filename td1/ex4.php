@@ -1,5 +1,5 @@
 <?php
-$title='Exercice n°4 (Itérations)';
+$title = 'Exercice n°4 (Itérations)';
 include "include/header.php";
 ?>
 <a href="?l=2&c=2">Tableau 2 x 2</a><br>
