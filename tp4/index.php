@@ -4,9 +4,6 @@ echo "<br>"
 ?>
 
 <!--création du message au dessus du bouton inscription-->
-<class >
-<p>Bienvenue!</p>
-<br>
-<p>cette application vous permet de vous inscrire à notre prochaine flashmob.";</p>
-<br>
-<input type = "submit" value = "inscription" color = "green" onclick="inscription.php" >
+<p classe ="ui_message" >Bienvenue!</p>
+<p classe ="ui_message">cette application vous permet de vous inscrire à notre prochaine flashmob.";</p>
+<input classe = "ui_ bouton" type = "submit" value = "inscription" color = "green"  href="web-dyna-td2\tp4\inscription.php" >
